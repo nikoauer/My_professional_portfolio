@@ -18,22 +18,18 @@ a {
 }
 
 .self-portrait {
-    width: 100%;
+    display: block;
+    width: 50%;
     margin: auto;
     border-radius: 10px;
 
 }
 
 .title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 8vmax;
+    font-size: 4vw;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 20%;
-    color: aliceblue;
   }
 
 footer {
