@@ -1,15 +1,46 @@
-nav {
-    display: flex;
-    justify-content: space-around;
+html {
+    scroll-behavior: smooth;
 }
 
-header {
-    font-size: 100px;
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: solid black; 
+    padding: 10px;
+    border-radius: 7px;
+    flex-shrink: inherit;
+}
+
+.self-portrait {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8vmax;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    padding-bottom: 20%;
+    color: aliceblue;
+  }
 
 footer {
     display: flex;
     justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px) {
+
 }
