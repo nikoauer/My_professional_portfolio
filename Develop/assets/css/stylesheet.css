@@ -16,7 +16,8 @@ background-color: rgb(243, 243, 243);
 
 .navigation {
     display: flex;
-    justify-content: right;
+    flex-direction: row-reverse;
+    
 }
 
 /* takes away underline of hyperlinks */
@@ -56,7 +57,7 @@ a {
 }
 
 .about_me {
-    font-size: 2vw
+    font-size: 20px;
 }
 
 #information {
@@ -68,12 +69,35 @@ a {
 
 /* Work section */
 
-
-footer {
+.box {
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 768px) {
+.box img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    border-radius: 7px;
+}
 
+footer {
+
+}
+
+@media only screen and (max-width: 768px) {
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box img {
+    padding: 10px;
+    width: 70%;
+}
+
+.button {
+    font-size: small;
+}
 }
