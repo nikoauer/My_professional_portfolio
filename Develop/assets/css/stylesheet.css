@@ -59,13 +59,15 @@ a {
     font-size: 2vw
 }
 
-
-.information {
+#information {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     bottom: 600px;
     padding: 10%;
 }
+
+/* Work section */
+
 
 footer {
     display: flex;
