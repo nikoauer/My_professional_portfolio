@@ -11,7 +11,7 @@ background-color: rgb(243, 243, 243);
 .title {
     font-size: 4vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
+
   }
 
 .navigation {
@@ -47,6 +47,7 @@ a {
   }
 
 /* Large self portrait  */
+
 .self-portrait {
     display: block; 
     width: 100%;
@@ -55,13 +56,15 @@ a {
 }
 
 .about_me {
-
+    font-size: 2vw
 }
 
-#information {
+
+.information {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 200px 75px 200px 75px;
+    bottom: 600px;
+    padding: 10%;
 }
 
 footer {
