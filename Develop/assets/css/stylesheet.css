@@ -1,3 +1,4 @@
+/* Allows for for scroll down when click on hyperlink  */
 html {
     scroll-behavior: smooth;
 }
@@ -6,11 +7,19 @@ body {
 background-color: rgb(243, 243, 243);
 }
 
+/* Header */
+.title {
+    font-size: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+  }
+
 .navigation {
     display: flex;
     justify-content: right;
 }
 
+/* takes away underline of hyperlinks */
 a {
     text-decoration: none;
 }
@@ -22,7 +31,7 @@ a {
     margin: 3%;
     border-radius: 7px;
     display: inline-block;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -37,19 +46,23 @@ a {
     border-bottom: solid #c8c6c6;
   }
 
-
+/* Large self portrait  */
 .self-portrait {
-    display: block;
+    display: block; 
     width: 100%;
     margin: auto;
     border-radius: 10px;
 }
 
-.title {
-    font-size: 4vw;
+.about_me {
+
+}
+
+#information {
+    font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: left;
-  }
+    padding: 200px 75px 200px 75px;
+}
 
 footer {
     display: flex;
@@ -57,7 +70,5 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    .button nav {
-        font-size: 5px;
-    }
+
 }
