@@ -1,23 +1,29 @@
+
+
 /* Allows for for scroll down when click on hyperlink  */
 html {
     scroll-behavior: smooth;
 }
 
 body {
-background-color: rgb(243, 243, 243);
+    background-color: #EDEDE9;
 }
 
 /* Header */
 .title {
-    font-size: 4vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    font-size: 5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #403d39;
   }
 
+/* flex box for the nav bar */
 .navigation {
     display: flex;
     flex-direction: row-reverse;
-    
+    margin: auto;
 }
 
 /* takes away underline of hyperlinks */
@@ -27,28 +33,25 @@ a {
 
 /* This the transition and charateristics of the navigation buttons */
 .button {
-    color: #646464;
+    color: black;
     padding: 8px 20px;
     margin: 3%;
     border-radius: 7px;
     display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
     cursor: pointer;
-    box-shadow: inset 0 0 0 0 #9d9d9d;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.8s;
+    box-shadow: inset 0 0 0 0 #d5bdaf;
+    transition: ease-out 1s;
   }
 
 .nav:hover {
-    box-shadow: inset 0 100px 0 0 #d1d8d0;
-    border-bottom: solid #c8c6c6;
+    box-shadow: inset 0 100px 0 0 black;
+    color: white;
   }
 
 /* Large self portrait  */
-
 .self-portrait {
     display: block; 
     width: 100%;
@@ -56,49 +59,84 @@ a {
     border-radius: 10px;
 }
 
-.about_me {
-    font-size: 20px;
+/* responsible for the sub titles */
+h2 {
+    font-size: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    margin: 5%;
+    border-bottom: solid #000000;
+    color: #403d39;
 }
 
+
+/* About me section */
 #information {
-    font-size: 16px;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     bottom: 600px;
     padding: 10%;
 }
 
-/* Work section */
-.symmetry {
+/* Selectors for application 1*/
+.app1 {
     width: 97%;
     display: block;
     margin: auto;
     margin-bottom: 20px;
     border-radius: 10px;
-
+    opacity: 1;
+    transition: all ease 1s;
+    cursor: pointer;
 }
 
+.app1:hover {
+    box-shadow: 0 0 10px black;
+    opacity: 0.6;
+  }
+
+/* Selectors for applications 2/3/4 */
 .box {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-around;
+
 }
 
 .box img {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     width: 30%;
     border-radius: 10px;
+    opacity: 1;
+    transition: all ease 1s;
+    cursor: pointer;
 }
 
+.box img:hover {
+    box-shadow: 0 0 10px black;
+    opacity: 0.6;
+}
 
-
+/* Footer selector for the contact me section */
 footer {
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.contact_information {
+    font-size: 2vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Wraps images into columns when shrunk down */
 @media only screen and (max-width: 768px) {
-.box {
+.navigation {
+    justify-content: space-between;
+}
+
+    .box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +151,12 @@ footer {
     font-size: small;
     
 }
-.symmetry {
+.app1 {
     width: 70%;
+    bottom: 270px;
+}
+.contact_information {
+    flex-direction: column;
+    align-items: center;
 }
 }
