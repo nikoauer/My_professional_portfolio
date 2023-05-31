@@ -18,10 +18,10 @@ Link to the live site:
 
 Screenshots below:
 
-    ![alt text](./Develop/assets/images/screenshot%201.png)
-    ![alt text](./Develop/assets/images/screenshot%202.png)
-    ![alt text](./Develop/assets/images/screenshot%203.png)
-    ![alt text](./Develop/assets/images/screenshot%203.png)
+![alt text](./Develop/assets/images/screenshot%201.png)
+![alt text](./Develop/assets/images/screenshot%202.png)
+![alt text](./Develop/assets/images/screenshot%203.png)
+![alt text](./Develop/assets/images/screenshot%203.png)
 
 ## Credits
 
