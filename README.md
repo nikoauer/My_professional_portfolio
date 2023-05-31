@@ -14,7 +14,7 @@ This is a portfolio page to showacase my html and css skills in showcasing my fu
 
 ## Usage
 
-Link to the live site: 
+Link to the live site: https://nikoauer.github.io/My_professional_portfolio/
 
 Screenshots below:
 
